@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Awesome Store</h1>
+    </header>
+
+    <main class="container">
+        <section class="products-section">
+            <h2>Products</h2>
+            <div id="productList" class="product-grid">
+                <!-- Products will be dynamically loaded here by script.js -->
+                <p>Loading products...</p>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <section class="cart-section">
+                <h2>Your Cart</h2>
+                <table id="cartTable">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Cart items will appear here -->
+                    </tbody>
+                </table>
+                <div id="grandTotal">Grand Total: $0.00</div>
+            </section>
+            <section class="order-section">
+                <h2>Place Order</h2>
+                <form id="orderForm">
+                    <div class="form-group">
+                        <label for="customerName">Full Name:</label>
+                        <input type="text" id="customerName" name="customerName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customerAddress">Shipping Address:</label>
+                        <textarea id="customerAddress" name="customerAddress" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-place-order">Place Order & Pay</button>
+                    <div id="orderConfirmation" class="confirmation-box"></div>
+                </form>
+            </section>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

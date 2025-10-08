@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diwali Shopping Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .card {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px #aaa;
+        }
+        .object-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Diwali Shopping Details</h1>
+
+<div id="shoppingDetails">Loading...</div>
+
+<script>
+    // Replace this URL with your Spring Boot endpoint
+    const apiUrl = "http://127.0.0.1:8000/order/info";
+
+    fetch(apiUrl)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Network response was not OK");
+            }
+            return response.json();
+        })
+        .then(data => {
+            const container = document.getElementById("shoppingDetails");
+            container.innerHTML = ""; // clear loading text
+
+            // Order Details
+            const orderCard = document.createElement("div");
+            orderCard.className = "card";
+            orderCard.innerHTML = `<div class="object-title">Order Details:</div><p>${data["Order Details Flow"]}</p>`;
+            container.appendChild(orderCard);
+
+            // Products
+            const productsCard = document.createElement("div");
+            productsCard.className = "card";
+            productsCard.innerHTML = `<div class="object-title">Products:</div>`;
+            const productList = document.createElement("ul");
+            data.products.forEach(p => {
+                const li = document.createElement("li");
+                li.textContent = `ID: ${p.id}, Name: ${p.name}, Available: ${p.availability}`;
+                productList.appendChild(li);
+            });
+            productsCard.appendChild(productList);
+            container.appendChild(productsCard);
+
+            // Inventory
+            const inventoryCard = document.createElement("div");
+            inventoryCard.className = "card";
+            inventoryCard.innerHTML = `<div class="object-title">Inventory:</div><p>${data["Check Inventory"].Inventory}</p>`;
+            container.appendChild(inventoryCard);
+
+            // Transaction / Payment
+            const transactionCard = document.createElement("div");
+            transactionCard.className = "card";
+            const paymentStatus = data.transaction.transactionStatus["bill info"].paymentStatus;
+            transactionCard.innerHTML = `<div class="object-title">Transaction / Payment:</div>
+                                         <p>Status: ${paymentStatus.status}</p>
+                                         <p>Payment Mode: ${paymentStatus.paymentMode}</p>`;
+            container.appendChild(transactionCard);
+
+        })
+        .catch(error => {
+            document.getElementById("shoppingDetails").innerHTML = `Error loading data: ${error}`;
+            console.error("Fetch error:", error);
+        });
+</script>
+
+</body>
+</html>
