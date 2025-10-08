@@ -1,0 +1,9 @@
+{
+  "name": "reward-point-app-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/reward-point-app-e2e/src",
+  "implicitDependencies": ["reward-point-app"],
+  "// targets": "to see all targets run: nx show project reward-point-app-e2e --web",
+  "targets": {}
+}

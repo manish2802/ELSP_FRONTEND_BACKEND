@@ -1,0 +1,40 @@
+<header class="dashboard-header">
+  <h1>Loyalty Dashboard</h1>
+  <button class="enroll-btn" (click)="toggleEnrollmentForm()">
+    Enroll in Loyalty Program
+  </button>
+</header>
+
+<div class="enrollment-container" *ngIf="showEnrollmentForm">
+  <h2>Enrollment Form</h2>
+  <form (ngSubmit)="enroll()">
+    <div class="form-group">
+      <label for="firstname">First Name</label>
+      <input id="firstname" type="text" [value]="user.firstname" readonly />
+    </div>
+    <div class="form-group">
+      <label for="lastname">Last Name</label>
+      <input id="lastname" type="text" [value]="user.lastname" readonly />
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input id="email" type="email" [value]="user.emailid" readonly />
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone</label>
+      <input id="phone" type="tel" [value]="user.phone" readonly />
+    </div>
+    <div class="form-group">
+      <label for="customerId">Bank Customer ID</label>
+      <input id="customerId" type="text" [value]="user.bankCustomerId" readonly />
+    </div>
+    <div class="form-group">
+      <label for="partner">Select Airline Partner</label>
+      <select id="partner" [(ngModel)]="selectedPartner" name="partner" required>
+        <option value="" disabled>Select a partner</option>
+        <option *ngFor="let partner of airlinePartners" [value]="partner">{{ partner }}</option>
+      </select>
+    </div>
+    <button type="submit" class="submit-btn">Enroll</button>
+  </form>
+</div>
