@@ -1,0 +1,16 @@
+/* Shared form styles */
+form {
+  max-width: 300px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+input {
+  width: 100%;
+  margin-bottom: 1rem;
+}

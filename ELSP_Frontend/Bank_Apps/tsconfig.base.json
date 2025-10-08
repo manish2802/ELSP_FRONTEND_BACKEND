@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@myngapp/admin-common": ["libs/admin-common/src/index.ts"],
+      "@myngapp/admin-core": ["libs/admin-core/src/index.ts"],
+      "@myngapp/common-core": ["libs/common-core/src/index.ts"],
+      "@myngapp/reward-point-common": ["libs/reward-point-common/src/index.ts"],
+      "@myngapp/reward-point-core": ["libs/reward-point-core/src/index.ts"],
+      "@myngapp/shared-common": ["libs/shared-common/src/index.ts"],
+      "@myngapp/shared-core": ["libs/shared-core/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

@@ -1,0 +1,16 @@
+<form (ngSubmit)="onLogin()" #loginForm="ngForm">
+  <label>
+    Username:
+    <input name="username" [(ngModel)]="username" required />
+  </label>
+  <br />
+  <label>
+    Password:
+    <input name="password" type="password" [(ngModel)]="password" required />
+  </label>
+  <br />
+  <button type="submit" [disabled]="loginForm.invalid">Login</button>
+</form>
+@if (loginError) {
+  <p style="color:red;">Invalid credentials</p>
+}
