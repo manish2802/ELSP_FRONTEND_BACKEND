@@ -1,0 +1,29 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ecommerce/app1-common": ["libs/app1-common/src/index.ts"],
+      "@ecommerce/app1-core": ["libs/app1-core/src/index.ts"],
+      "@ecommerce/app2-common": ["libs/app2-common/src/index.ts"],
+      "@ecommerce/app2-core": ["libs/app2-core/src/index.ts"],
+      "@ecommerce/libName": ["libs/libName/src/index.ts"],
+      "@ecommerce/my-angular-lib": ["libs/my-angular-lib/src/index.ts"],
+      "@ecommerce/shared-core": ["libs/shared-core/src/index.ts"],
+      "@ecommerce/shared-ui": ["libs/shared-ui/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
