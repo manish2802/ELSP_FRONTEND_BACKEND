@@ -1080,24 +1080,6 @@
         "hash": "sha512-TXv6YnJ8ZMVdX+SXWVBo/0p8LTcrUYngpWjvm91TMjjBQii7Oz11Lw5lbDV5Y0TzuhSJHwiH4hEtC1I42mMS0g=="
       }
     },
-    "npm:chokidar@4.0.3": {
-      "type": "npm",
-      "name": "npm:chokidar@4.0.3",
-      "data": {
-        "version": "4.0.3",
-        "packageName": "chokidar",
-        "hash": "sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA=="
-      }
-    },
-    "npm:chokidar": {
-      "type": "npm",
-      "name": "npm:chokidar",
-      "data": {
-        "version": "3.6.0",
-        "packageName": "chokidar",
-        "hash": "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw=="
-      }
-    },
     "npm:esbuild@0.25.9": {
       "type": "npm",
       "name": "npm:esbuild@0.25.9",
@@ -1114,24 +1096,6 @@
         "version": "0.25.5",
         "packageName": "esbuild",
         "hash": "sha512-P8OtKZRv/5J5hhz0cUAdu/cLuPIKXpQl1R9pZtvmHWQvrAUVd0UNIPT4IB4W3rNOqVO0rlqHmCIbSwxh/c9yUQ=="
-      }
-    },
-    "npm:readdirp@4.1.2": {
-      "type": "npm",
-      "name": "npm:readdirp@4.1.2",
-      "data": {
-        "version": "4.1.2",
-        "packageName": "readdirp",
-        "hash": "sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg=="
-      }
-    },
-    "npm:readdirp": {
-      "type": "npm",
-      "name": "npm:readdirp",
-      "data": {
-        "version": "3.6.0",
-        "packageName": "readdirp",
-        "hash": "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA=="
       }
     },
     "npm:sass@1.90.0": {
@@ -6327,6 +6291,24 @@
         "hash": "sha512-kGHYX2jYf3ZiHwVl0aUEPBOBEIG1aWleCDCAi+Jg32KUu3qr/zDUpCEd0wPuHfLEgk0X0xAEYCS6JMO7nBStNQ=="
       }
     },
+    "npm:chokidar@3.6.0": {
+      "type": "npm",
+      "name": "npm:chokidar@3.6.0",
+      "data": {
+        "version": "3.6.0",
+        "packageName": "chokidar",
+        "hash": "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw=="
+      }
+    },
+    "npm:chokidar": {
+      "type": "npm",
+      "name": "npm:chokidar",
+      "data": {
+        "version": "4.0.3",
+        "packageName": "chokidar",
+        "hash": "sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA=="
+      }
+    },
     "npm:http-proxy-middleware@2.0.9": {
       "type": "npm",
       "name": "npm:http-proxy-middleware@2.0.9",
@@ -6343,6 +6325,24 @@
         "version": "3.0.5",
         "packageName": "http-proxy-middleware",
         "hash": "sha512-GLZZm1X38BPY4lkXA01jhwxvDoOkkXqjgVyUzVxiEK4iuRu03PZoYHhHRwxnfhQMDuaxi3vVri0YgSro/1oWqg=="
+      }
+    },
+    "npm:readdirp@3.6.0": {
+      "type": "npm",
+      "name": "npm:readdirp@3.6.0",
+      "data": {
+        "version": "3.6.0",
+        "packageName": "readdirp",
+        "hash": "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA=="
+      }
+    },
+    "npm:readdirp": {
+      "type": "npm",
+      "name": "npm:readdirp",
+      "data": {
+        "version": "4.1.2",
+        "packageName": "readdirp",
+        "hash": "sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg=="
       }
     },
     "npm:@rspack/lite-tapable": {
@@ -8728,6 +8728,24 @@
         "version": "9.0.0",
         "packageName": "cosmiconfig",
         "hash": "sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg=="
+      }
+    },
+    "npm:yaml@1.10.2": {
+      "type": "npm",
+      "name": "npm:yaml@1.10.2",
+      "data": {
+        "version": "1.10.2",
+        "packageName": "yaml",
+        "hash": "sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg=="
+      }
+    },
+    "npm:yaml": {
+      "type": "npm",
+      "name": "npm:yaml",
+      "data": {
+        "version": "2.8.1",
+        "packageName": "yaml",
+        "hash": "sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw=="
       }
     },
     "npm:create-jest": {
@@ -12141,24 +12159,6 @@
         "hash": "sha512-+XwzK3OWZw/7zLdhNHBms9VdAA8F6w6QsX8qFQ3+3CnbqEy0IDmVxTXb8c711LDMbEtNn94EiWvSV6C00FKw9Q=="
       }
     },
-    "npm:yaml@2.8.1": {
-      "type": "npm",
-      "name": "npm:yaml@2.8.1",
-      "data": {
-        "version": "2.8.1",
-        "packageName": "yaml",
-        "hash": "sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw=="
-      }
-    },
-    "npm:yaml": {
-      "type": "npm",
-      "name": "npm:yaml",
-      "data": {
-        "version": "1.10.2",
-        "packageName": "yaml",
-        "hash": "sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg=="
-      }
-    },
     "npm:object-assign": {
       "type": "npm",
       "name": "npm:object-assign",
@@ -12996,6 +12996,24 @@
         "hash": "sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg=="
       }
     },
+    "npm:react": {
+      "type": "npm",
+      "name": "npm:react",
+      "data": {
+        "version": "19.2.0",
+        "packageName": "react",
+        "hash": "sha512-tmbWg6W31tQLeB5cdIBOicJDJRR2KzXsV7uSK9iNfLWQ5bIZfxuPEHp7M8wiHyHnn0DD1i7w3Zmin0FtkrwoCQ=="
+      }
+    },
+    "npm:react-dom": {
+      "type": "npm",
+      "name": "npm:react-dom",
+      "data": {
+        "version": "19.2.0",
+        "packageName": "react-dom",
+        "hash": "sha512-UlbRu4cAiGaIewkPyiRGJk0imDN2T3JjieT6spoL2UeSf5od4n5LB/mQ4ejmxhCFT1tYe8IvaFulzynWovsEFQ=="
+      }
+    },
     "npm:react-is": {
       "type": "npm",
       "name": "npm:react-is",
@@ -13003,6 +13021,15 @@
         "version": "18.3.1",
         "packageName": "react-is",
         "hash": "sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg=="
+      }
+    },
+    "npm:react-refresh": {
+      "type": "npm",
+      "name": "npm:react-refresh",
+      "data": {
+        "version": "0.18.0",
+        "packageName": "react-refresh",
+        "hash": "sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw=="
       }
     },
     "npm:read-cache": {
@@ -13408,6 +13435,15 @@
         "version": "6.0.0",
         "packageName": "saxes",
         "hash": "sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA=="
+      }
+    },
+    "npm:scheduler": {
+      "type": "npm",
+      "name": "npm:scheduler",
+      "data": {
+        "version": "0.27.0",
+        "packageName": "scheduler",
+        "hash": "sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q=="
       }
     },
     "npm:secure-compare": {
@@ -14882,6 +14918,11 @@
     },
     {
       "source": "npm:@angular-devkit/core",
+      "target": "npm:chokidar",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular-devkit/core",
       "target": "npm:ajv",
       "type": "static"
     },
@@ -15466,11 +15507,6 @@
       "type": "static"
     },
     {
-      "source": "npm:chokidar@4.0.3",
-      "target": "npm:readdirp@4.1.2",
-      "type": "static"
-    },
-    {
       "source": "npm:esbuild@0.25.9",
       "target": "npm:@esbuild/aix-ppc64@0.25.9",
       "type": "static"
@@ -15607,7 +15643,7 @@
     },
     {
       "source": "npm:sass@1.90.0",
-      "target": "npm:chokidar@4.0.3",
+      "target": "npm:chokidar",
       "type": "static"
     },
     {
@@ -15897,7 +15933,7 @@
     },
     {
       "source": "npm:@angular/compiler-cli",
-      "target": "npm:chokidar@4.0.3",
+      "target": "npm:chokidar",
       "type": "static"
     },
     {
@@ -15998,11 +16034,6 @@
     {
       "source": "npm:@babel/core@7.28.3",
       "target": "npm:semver@6.3.1",
-      "type": "static"
-    },
-    {
-      "source": "npm:chokidar@4.0.3",
-      "target": "npm:readdirp@4.1.2",
       "type": "static"
     },
     {
@@ -21782,6 +21813,16 @@
     },
     {
       "source": "npm:@module-federation/data-prefetch",
+      "target": "npm:react",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/data-prefetch",
+      "target": "npm:react-dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/data-prefetch",
       "target": "npm:@module-federation/runtime",
       "type": "static"
     },
@@ -22027,6 +22068,16 @@
     },
     {
       "source": "npm:@module-federation/node",
+      "target": "npm:react",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/node",
+      "target": "npm:react-dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/node",
       "target": "npm:webpack",
       "type": "static"
     },
@@ -22098,6 +22149,16 @@
     {
       "source": "npm:@module-federation/cli@0.19.1",
       "target": "npm:commander",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/data-prefetch@0.19.1",
+      "target": "npm:react",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/data-prefetch@0.19.1",
+      "target": "npm:react-dom",
       "type": "static"
     },
     {
@@ -24172,7 +24233,7 @@
     },
     {
       "source": "npm:@rspack/dev-server",
-      "target": "npm:chokidar",
+      "target": "npm:chokidar@3.6.0",
       "type": "static"
     },
     {
@@ -24193,6 +24254,46 @@
     {
       "source": "npm:@rspack/dev-server",
       "target": "npm:ws",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:anymatch",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:braces",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:glob-parent",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:is-binary-path",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:is-glob",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:normalize-path",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:readdirp@3.6.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:fsevents",
       "type": "static"
     },
     {
@@ -24223,6 +24324,16 @@
     {
       "source": "npm:http-proxy-middleware@2.0.9",
       "target": "npm:micromatch",
+      "type": "static"
+    },
+    {
+      "source": "npm:readdirp@3.6.0",
+      "target": "npm:picomatch@2.3.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:@rspack/plugin-react-refresh",
+      "target": "npm:react-refresh",
       "type": "static"
     },
     {
@@ -26132,42 +26243,7 @@
     },
     {
       "source": "npm:chokidar",
-      "target": "npm:anymatch",
-      "type": "static"
-    },
-    {
-      "source": "npm:chokidar",
-      "target": "npm:braces",
-      "type": "static"
-    },
-    {
-      "source": "npm:chokidar",
-      "target": "npm:glob-parent",
-      "type": "static"
-    },
-    {
-      "source": "npm:chokidar",
-      "target": "npm:is-binary-path",
-      "type": "static"
-    },
-    {
-      "source": "npm:chokidar",
-      "target": "npm:is-glob",
-      "type": "static"
-    },
-    {
-      "source": "npm:chokidar",
-      "target": "npm:normalize-path",
-      "type": "static"
-    },
-    {
-      "source": "npm:chokidar",
       "target": "npm:readdirp",
-      "type": "static"
-    },
-    {
-      "source": "npm:chokidar",
-      "target": "npm:fsevents",
       "type": "static"
     },
     {
@@ -26402,7 +26478,7 @@
     },
     {
       "source": "npm:cosmiconfig",
-      "target": "npm:yaml",
+      "target": "npm:yaml@1.10.2",
       "type": "static"
     },
     {
@@ -28782,7 +28858,7 @@
     },
     {
       "source": "npm:fork-ts-checker-webpack-plugin",
-      "target": "npm:chokidar",
+      "target": "npm:chokidar@3.6.0",
       "type": "static"
     },
     {
@@ -28866,6 +28942,46 @@
       "type": "static"
     },
     {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:anymatch",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:braces",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:glob-parent",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:is-binary-path",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:is-glob",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:normalize-path",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:readdirp@3.6.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:fsevents",
+      "type": "static"
+    },
+    {
       "source": "npm:fs-extra@10.1.0",
       "target": "npm:graceful-fs",
       "type": "static"
@@ -28883,6 +28999,11 @@
     {
       "source": "npm:minimatch@3.1.2",
       "target": "npm:brace-expansion@1.1.12",
+      "type": "static"
+    },
+    {
+      "source": "npm:readdirp@3.6.0",
+      "target": "npm:picomatch@2.3.1",
       "type": "static"
     },
     {
@@ -36067,7 +36188,7 @@
     },
     {
       "source": "npm:nx",
-      "target": "npm:yaml@2.8.1",
+      "target": "npm:yaml",
       "type": "static"
     },
     {
@@ -37071,6 +37192,16 @@
       "type": "static"
     },
     {
+      "source": "npm:react-dom",
+      "target": "npm:react",
+      "type": "static"
+    },
+    {
+      "source": "npm:react-dom",
+      "target": "npm:scheduler",
+      "type": "static"
+    },
+    {
       "source": "npm:read-cache",
       "target": "npm:pify@2.3.0",
       "type": "static"
@@ -37088,11 +37219,6 @@
     {
       "source": "npm:readable-stream",
       "target": "npm:util-deprecate",
-      "type": "static"
-    },
-    {
-      "source": "npm:readdirp",
-      "target": "npm:picomatch@2.3.1",
       "type": "static"
     },
     {
@@ -37422,7 +37548,7 @@
     },
     {
       "source": "npm:sass",
-      "target": "npm:chokidar@4.0.3",
+      "target": "npm:chokidar",
       "type": "static"
     },
     {
@@ -37608,11 +37734,6 @@
     {
       "source": "npm:sass-loader",
       "target": "npm:neo-async",
-      "type": "static"
-    },
-    {
-      "source": "npm:chokidar@4.0.3",
-      "target": "npm:readdirp@4.1.2",
       "type": "static"
     },
     {
@@ -38547,7 +38668,7 @@
     },
     {
       "source": "npm:ts-checker-rspack-plugin",
-      "target": "npm:chokidar",
+      "target": "npm:chokidar@3.6.0",
       "type": "static"
     },
     {
@@ -38568,6 +38689,46 @@
     {
       "source": "npm:ts-checker-rspack-plugin",
       "target": "npm:picocolors",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:anymatch",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:braces",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:glob-parent",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:is-binary-path",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:is-glob",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:normalize-path",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:readdirp@3.6.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:fsevents",
       "type": "static"
     },
     {
@@ -38603,6 +38764,11 @@
     {
       "source": "npm:minimatch@9.0.5",
       "target": "npm:brace-expansion",
+      "type": "static"
+    },
+    {
+      "source": "npm:readdirp@3.6.0",
+      "target": "npm:picomatch@2.3.1",
       "type": "static"
     },
     {
@@ -39102,6 +39268,11 @@
     },
     {
       "source": "npm:vite",
+      "target": "npm:yaml",
+      "type": "static"
+    },
+    {
+      "source": "npm:vite",
       "target": "npm:esbuild",
       "type": "static"
     },
@@ -39417,7 +39588,7 @@
     },
     {
       "source": "npm:webpack-dev-server",
-      "target": "npm:chokidar",
+      "target": "npm:chokidar@3.6.0",
       "type": "static"
     },
     {
@@ -39506,6 +39677,46 @@
       "type": "static"
     },
     {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:anymatch",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:braces",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:glob-parent",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:is-binary-path",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:is-glob",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:normalize-path",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:readdirp@3.6.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:chokidar@3.6.0",
+      "target": "npm:fsevents",
+      "type": "static"
+    },
+    {
       "source": "npm:http-proxy-middleware@2.0.9",
       "target": "npm:@types/express",
       "type": "static"
@@ -39553,6 +39764,11 @@
     {
       "source": "npm:open@10.2.0",
       "target": "npm:wsl-utils",
+      "type": "static"
+    },
+    {
+      "source": "npm:readdirp@3.6.0",
+      "target": "npm:picomatch@2.3.1",
       "type": "static"
     },
     {

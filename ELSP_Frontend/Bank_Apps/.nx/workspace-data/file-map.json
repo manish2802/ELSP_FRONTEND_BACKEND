@@ -41,148 +41,111 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package-lock.json",
-        "hash": "7595127666662625925"
+        "file": "tsconfig.base.json",
+        "hash": "11061142012119746168"
       },
       {
-        "file": ".gitignore",
-        "hash": "17559216753634855455"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": ".nx/workspace-data/nx_files.nxt",
+        "hash": "3966271692674975414"
       },
       {
         "file": ".prettierignore",
-        "hash": "5407418692668764289"
+        "hash": "12269743867629339573"
       },
       {
-        "file": "package.json",
-        "hash": "16462300254858058709"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "12413306111347065682"
       },
       {
         "file": "jest.config.ts",
-        "hash": "6870352021923392442"
+        "hash": "9882362695153092473"
       },
       {
-        "file": ".github/workflows/ci.yml",
-        "hash": "14207756813763587448"
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
+      },
+      {
+        "file": ".nx/workspace-data/eslint-2654242865465226088.hash",
+        "hash": "3135143370563082950"
+      },
+      {
+        "file": ".angular/cache/20.2.2/reward-point-app/.tsbuildinfo",
+        "hash": "2937779656927027931"
       },
       {
         "file": ".vscode/extensions.json",
-        "hash": "108759356477840841"
+        "hash": "12879020780196452735"
       },
       {
-        "file": "nx.json",
-        "hash": "4283269822642281287"
+        "file": ".prettierrc",
+        "hash": "6820402234827505055"
       },
       {
-        "file": "README.md",
-        "hash": "15831181297144068027"
+        "file": ".nx/workspace-data/26da97fd-baec-43b8-b493-9d7d07fd0993.db-wal",
+        "hash": "16573344445847805211"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "8428554254125439366"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "10770449096712831357"
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "9365331602225508193"
       },
       {
         "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "hash": "7473220183190921152"
       },
       {
         "file": "error.log",
-        "hash": "10011522935163518115"
+        "hash": "5535853990701167390"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1876380519722684295"
+      },
+      {
+        "file": "package.json",
+        "hash": "11790271063906139366"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "11812130809698082379"
+      },
+      {
+        "file": "README.md",
+        "hash": "1721719580850651661"
+      },
+      {
+        "file": ".angular/cache/20.2.2/reward-point-app/vite/deps_temp_347264f8/package.json",
+        "hash": "8630294688235076505"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "16206182710851018290"
+      },
+      {
+        "file": ".nx/workspace-data/playwright-5186013267177752385.hash",
+        "hash": "2697794032897357596"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "13548544164078488613"
       }
     ],
     "projectFileMap": {
-      "myngapp-shared-common": [
-        {
-          "file": "libs/shared-common/README.md",
-          "hash": "9860395046493939364"
-        },
-        {
-          "file": "libs/shared-common/eslint.config.mjs",
-          "hash": "9628975637710176443",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "libs/shared-common/jest.config.ts",
-          "hash": "17733516940480551991"
-        },
-        {
-          "file": "libs/shared-common/project.json",
-          "hash": "8999552372716196649"
-        },
-        {
-          "file": "libs/shared-common/src/index.ts",
-          "hash": "7959605760931656153"
-        },
-        {
-          "file": "libs/shared-common/src/lib/shared-common/shared-common.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/shared-common/src/lib/shared-common/shared-common.html",
-          "hash": "11880654098360295621"
-        },
-        {
-          "file": "libs/shared-common/src/lib/shared-common/shared-common.spec.ts",
-          "hash": "17613165506303318293",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/shared-common/src/lib/shared-common/shared-common.ts",
-          "hash": "2829210381238262233",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/shared-common/src/test-setup.ts",
-          "hash": "1917999429567095215",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "libs/shared-common/tsconfig.json",
-          "hash": "16798562522216220935"
-        },
-        {
-          "file": "libs/shared-common/tsconfig.lib.json",
-          "hash": "5796668385415907511"
-        },
-        {
-          "file": "libs/shared-common/tsconfig.spec.json",
-          "hash": "5331518322626158299"
-        }
-      ],
       "reward-point-app": [
         {
           "file": "apps/reward-point-app/eslint.config.mjs",
-          "hash": "16756400681144203361",
+          "hash": "4022437926435226564",
           "deps": [
-            "npm:@nx/eslint-plugin"
+            "npm:@nx/eslint-plugin",
+            "undefined"
           ]
         },
         {
           "file": "apps/reward-point-app/jest.config.ts",
-          "hash": "2480610638371080097"
+          "hash": "11057909802587281986"
         },
         {
           "file": "apps/reward-point-app/project.json",
-          "hash": "13053166780803254019"
+          "hash": "3067612519236433931"
         },
         {
           "file": "apps/reward-point-app/public/favicon.ico",
@@ -190,7 +153,7 @@
         },
         {
           "file": "apps/reward-point-app/src/app/app.config.ts",
-          "hash": "4447612965275002278",
+          "hash": "2366552214062631963",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -203,25 +166,25 @@
         },
         {
           "file": "apps/reward-point-app/src/app/app.html",
-          "hash": "9777074567724138157"
+          "hash": "16660521701194831472"
         },
         {
           "file": "apps/reward-point-app/src/app/app.routes.ts",
-          "hash": "4810131820190962383",
+          "hash": "16447850734999289610",
           "deps": [
             "npm:@angular/router"
           ]
         },
         {
           "file": "apps/reward-point-app/src/app/app.spec.ts",
-          "hash": "9274488600373948002",
+          "hash": "10801001039620749658",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
           "file": "apps/reward-point-app/src/app/app.ts",
-          "hash": "9459595853621471025",
+          "hash": "4001808701820071618",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
@@ -253,18 +216,18 @@
         },
         {
           "file": "apps/reward-point-app/src/app/features/login/login.html",
-          "hash": "13769403593531211875"
+          "hash": "16784810766989355170"
         },
         {
           "file": "apps/reward-point-app/src/app/features/login/login.spec.ts",
-          "hash": "11634060604924585236",
+          "hash": "4643552591563966583",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
           "file": "apps/reward-point-app/src/app/features/login/login.ts",
-          "hash": "7731487561686557023",
+          "hash": "14458948083369329107",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -282,18 +245,18 @@
         },
         {
           "file": "apps/reward-point-app/src/app/features/loyalty-dashboard/loyalty-dashboard-component.html",
-          "hash": "16023535789566766467"
+          "hash": "17601310744751575598"
         },
         {
           "file": "apps/reward-point-app/src/app/features/loyalty-dashboard/loyalty-dashboard-component.spec.ts",
-          "hash": "496511260456696670",
+          "hash": "9934408550935112646",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
           "file": "apps/reward-point-app/src/app/features/loyalty-dashboard/loyalty-dashboard-component.ts",
-          "hash": "15522311772365840345",
+          "hash": "14545362265786136745",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -322,7 +285,7 @@
         },
         {
           "file": "apps/reward-point-app/src/app/nx-welcome.ts",
-          "hash": "7831681849371357958",
+          "hash": "1756041248094044241",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common"
@@ -334,212 +297,156 @@
         },
         {
           "file": "apps/reward-point-app/src/index.html",
-          "hash": "7816157223409471757"
+          "hash": "3925426588898075259"
         },
         {
           "file": "apps/reward-point-app/src/main.ts",
-          "hash": "3314327030169821486",
+          "hash": "17436527127367840298",
           "deps": [
             "npm:@angular/platform-browser"
           ]
         },
         {
           "file": "apps/reward-point-app/src/styles.css",
-          "hash": "5195668842064076916"
+          "hash": "2917954890128038984"
         },
         {
           "file": "apps/reward-point-app/src/test-setup.ts",
-          "hash": "1917999429567095215",
+          "hash": "10311052578323244902",
           "deps": [
             "npm:jest-preset-angular"
           ]
         },
         {
           "file": "apps/reward-point-app/tsconfig.app.json",
-          "hash": "10974451356376189872"
+          "hash": "16217437251327536326"
         },
         {
           "file": "apps/reward-point-app/tsconfig.json",
-          "hash": "4663124578817442910"
+          "hash": "10460870498210890471"
         },
         {
           "file": "apps/reward-point-app/tsconfig.spec.json",
-          "hash": "5331518322626158299"
+          "hash": "14762606407804485215"
         }
       ],
-      "reward-point-common": [
+      "admin-portal-app-e2e": [
         {
-          "file": "libs/reward-point-common/README.md",
-          "hash": "17340094059583728716"
-        },
-        {
-          "file": "libs/reward-point-common/eslint.config.mjs",
-          "hash": "9628975637710176443",
+          "file": "apps/admin-portal-app-e2e/eslint.config.mjs",
+          "hash": "16243282764819368173",
           "deps": [
-            "npm:@nx/eslint-plugin"
+            "npm:eslint-plugin-playwright",
+            "undefined"
           ]
         },
         {
-          "file": "libs/reward-point-common/jest.config.ts",
-          "hash": "17264316113993359669"
+          "file": "apps/admin-portal-app-e2e/playwright.config.ts",
+          "hash": "12717120661981692603",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
         },
         {
-          "file": "libs/reward-point-common/project.json",
-          "hash": "1460730068944282672"
+          "file": "apps/admin-portal-app-e2e/project.json",
+          "hash": "13013713261083974927"
         },
         {
-          "file": "libs/reward-point-common/src/app/lib/components/fligt-list.css",
+          "file": "apps/admin-portal-app-e2e/src/example.spec.ts",
+          "hash": "1909365745453809229",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/admin-portal-app-e2e/tsconfig.json",
+          "hash": "17724039105515471508"
+        }
+      ],
+      "myngapp-admin-core": [
+        {
+          "file": "libs/admin-core/README.md",
+          "hash": "2683242152097698623"
+        },
+        {
+          "file": "libs/admin-core/eslint.config.mjs",
+          "hash": "18087596490542984526",
+          "deps": [
+            "npm:@nx/eslint-plugin",
+            "undefined"
+          ]
+        },
+        {
+          "file": "libs/admin-core/jest.config.ts",
+          "hash": "8630943985454562797"
+        },
+        {
+          "file": "libs/admin-core/project.json",
+          "hash": "9295239984652608268"
+        },
+        {
+          "file": "libs/admin-core/src/index.ts",
+          "hash": "8762777308564831509"
+        },
+        {
+          "file": "libs/admin-core/src/lib/admin-core/admin-core.css",
           "hash": "3244421341483603138"
         },
         {
-          "file": "libs/reward-point-common/src/app/lib/components/fligt-list.html",
-          "hash": "306297472578276141"
+          "file": "libs/admin-core/src/lib/admin-core/admin-core.html",
+          "hash": "2175107516075712976"
         },
         {
-          "file": "libs/reward-point-common/src/app/lib/components/fligt-list.spec.ts",
-          "hash": "17672979471130456358",
+          "file": "libs/admin-core/src/lib/admin-core/admin-core.spec.ts",
+          "hash": "3772430655025410989",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
-          "file": "libs/reward-point-common/src/app/lib/components/fligt-list.ts",
-          "hash": "15028536449402752435",
+          "file": "libs/admin-core/src/lib/admin-core/admin-core.ts",
+          "hash": "12956077644089695600",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
-          "file": "libs/reward-point-common/src/index.ts",
-          "hash": "1469493259892132775"
-        },
-        {
-          "file": "libs/reward-point-common/src/lib/components/fligt-list.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/reward-point-common/src/lib/components/fligt-list.html",
-          "hash": "306297472578276141"
-        },
-        {
-          "file": "libs/reward-point-common/src/lib/components/fligt-list.spec.ts",
-          "hash": "17672979471130456358",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/reward-point-common/src/lib/components/fligt-list.ts",
-          "hash": "15028536449402752435",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/reward-point-common/src/lib/components/forms.css",
-          "hash": "16706035649695838976"
-        },
-        {
-          "file": "libs/reward-point-common/src/test-setup.ts",
-          "hash": "1917999429567095215",
+          "file": "libs/admin-core/src/test-setup.ts",
+          "hash": "10311052578323244902",
           "deps": [
             "npm:jest-preset-angular"
           ]
         },
         {
-          "file": "libs/reward-point-common/tsconfig.json",
-          "hash": "16798562522216220935"
+          "file": "libs/admin-core/tsconfig.json",
+          "hash": "4822129339767490952"
         },
         {
-          "file": "libs/reward-point-common/tsconfig.lib.json",
-          "hash": "5796668385415907511"
+          "file": "libs/admin-core/tsconfig.lib.json",
+          "hash": "15304444604046903881"
         },
         {
-          "file": "libs/reward-point-common/tsconfig.spec.json",
-          "hash": "5331518322626158299"
-        }
-      ],
-      "reward-point-core": [
-        {
-          "file": "libs/reward-point-core/README.md",
-          "hash": "8506343988876213721"
-        },
-        {
-          "file": "libs/reward-point-core/eslint.config.mjs",
-          "hash": "9628975637710176443",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "libs/reward-point-core/jest.config.ts",
-          "hash": "12009544491198411400"
-        },
-        {
-          "file": "libs/reward-point-core/project.json",
-          "hash": "7736543283249733972"
-        },
-        {
-          "file": "libs/reward-point-core/src/index.ts",
-          "hash": "18119434305378119090"
-        },
-        {
-          "file": "libs/reward-point-core/src/lib/reward-point-core/reward-point-core.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/reward-point-core/src/lib/reward-point-core/reward-point-core.html",
-          "hash": "10821723197666874065"
-        },
-        {
-          "file": "libs/reward-point-core/src/lib/reward-point-core/reward-point-core.spec.ts",
-          "hash": "18027190620829793442",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/reward-point-core/src/lib/reward-point-core/reward-point-core.ts",
-          "hash": "16101666494855097479",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/reward-point-core/src/test-setup.ts",
-          "hash": "1917999429567095215",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "libs/reward-point-core/tsconfig.json",
-          "hash": "16798562522216220935"
-        },
-        {
-          "file": "libs/reward-point-core/tsconfig.lib.json",
-          "hash": "5796668385415907511"
-        },
-        {
-          "file": "libs/reward-point-core/tsconfig.spec.json",
-          "hash": "5331518322626158299"
+          "file": "libs/admin-core/tsconfig.spec.json",
+          "hash": "14762606407804485215"
         }
       ],
       "admin-portal-app": [
         {
           "file": "apps/admin-portal-app/eslint.config.mjs",
-          "hash": "16756400681144203361",
+          "hash": "4022437926435226564",
           "deps": [
-            "npm:@nx/eslint-plugin"
+            "npm:@nx/eslint-plugin",
+            "undefined"
           ]
         },
         {
           "file": "apps/admin-portal-app/jest.config.ts",
-          "hash": "13525278485635285969"
+          "hash": "6694958024477882924"
         },
         {
           "file": "apps/admin-portal-app/project.json",
-          "hash": "14740219485124999978"
+          "hash": "6086810129814052395"
         },
         {
           "file": "apps/admin-portal-app/public/favicon.ico",
@@ -547,7 +454,7 @@
         },
         {
           "file": "apps/admin-portal-app/src/app/app.config.ts",
-          "hash": "3393989926598572141",
+          "hash": "10272641508461804666",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
@@ -559,25 +466,25 @@
         },
         {
           "file": "apps/admin-portal-app/src/app/app.html",
-          "hash": "9777074567724138157"
+          "hash": "16660521701194831472"
         },
         {
           "file": "apps/admin-portal-app/src/app/app.routes.ts",
-          "hash": "6185150965714414910",
+          "hash": "12790378059371385261",
           "deps": [
             "npm:@angular/router"
           ]
         },
         {
           "file": "apps/admin-portal-app/src/app/app.spec.ts",
-          "hash": "13441890164065931201",
+          "hash": "9162963744030312299",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
           "file": "apps/admin-portal-app/src/app/app.ts",
-          "hash": "3307382411597923802",
+          "hash": "4649315900671217773",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -621,18 +528,18 @@
         },
         {
           "file": "apps/admin-portal-app/src/app/features/login/login-page.html",
-          "hash": "437138050231872777"
+          "hash": "3080700951765160333"
         },
         {
           "file": "apps/admin-portal-app/src/app/features/login/login-page.spec.ts",
-          "hash": "13937987479500659279",
+          "hash": "7080040559145125518",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
           "file": "apps/admin-portal-app/src/app/features/login/login-page.ts",
-          "hash": "9978527368840187901",
+          "hash": "3484780343206605819",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/forms",
@@ -658,7 +565,7 @@
         },
         {
           "file": "apps/admin-portal-app/src/app/nx-welcome.ts",
-          "hash": "1994564242275738420",
+          "hash": "3355864105179476376",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common"
@@ -666,157 +573,219 @@
         },
         {
           "file": "apps/admin-portal-app/src/index.html",
-          "hash": "10279049828494569509"
+          "hash": "13890858585188499987"
         },
         {
           "file": "apps/admin-portal-app/src/main.ts",
-          "hash": "4801256098358827979",
+          "hash": "12072892893241292687",
           "deps": [
             "npm:@angular/platform-browser"
           ]
         },
         {
           "file": "apps/admin-portal-app/src/styles.css",
-          "hash": "5195668842064076916"
+          "hash": "2917954890128038984"
         },
         {
           "file": "apps/admin-portal-app/src/test-setup.ts",
-          "hash": "1917999429567095215",
+          "hash": "10311052578323244902",
           "deps": [
             "npm:jest-preset-angular"
           ]
         },
         {
           "file": "apps/admin-portal-app/tsconfig.app.json",
-          "hash": "10974451356376189872"
+          "hash": "16217437251327536326"
         },
         {
           "file": "apps/admin-portal-app/tsconfig.json",
-          "hash": "4663124578817442910"
+          "hash": "10460870498210890471"
         },
         {
           "file": "apps/admin-portal-app/tsconfig.spec.json",
-          "hash": "5331518322626158299"
+          "hash": "14762606407804485215"
         }
       ],
-      "admin-portal-app-e2e": [
+      "myngapp-shared-common": [
         {
-          "file": "apps/admin-portal-app-e2e/eslint.config.mjs",
-          "hash": "1172734138943286526",
+          "file": "libs/shared-common/README.md",
+          "hash": "891668432730089818"
+        },
+        {
+          "file": "libs/shared-common/eslint.config.mjs",
+          "hash": "18087596490542984526",
           "deps": [
-            "npm:eslint-plugin-playwright"
+            "npm:@nx/eslint-plugin",
+            "undefined"
           ]
         },
         {
-          "file": "apps/admin-portal-app-e2e/playwright.config.ts",
-          "hash": "779703683288339505",
-          "deps": [
-            "npm:@playwright/test",
-            "npm:@nx/playwright",
-            "npm:@nx/devkit"
-          ]
+          "file": "libs/shared-common/jest.config.ts",
+          "hash": "17982066589620225671"
         },
         {
-          "file": "apps/admin-portal-app-e2e/project.json",
-          "hash": "3842786782415496314"
+          "file": "libs/shared-common/project.json",
+          "hash": "14910025629846121129"
         },
         {
-          "file": "apps/admin-portal-app-e2e/src/example.spec.ts",
-          "hash": "16019101014373124625",
-          "deps": [
-            "npm:@playwright/test"
-          ]
+          "file": "libs/shared-common/src/index.ts",
+          "hash": "1178505854534207703"
         },
         {
-          "file": "apps/admin-portal-app-e2e/tsconfig.json",
-          "hash": "15726545290547512047"
-        }
-      ],
-      "myngapp-admin-core": [
-        {
-          "file": "libs/admin-core/README.md",
-          "hash": "5080486949425174893"
-        },
-        {
-          "file": "libs/admin-core/eslint.config.mjs",
-          "hash": "9628975637710176443",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "libs/admin-core/jest.config.ts",
-          "hash": "17811638031281570093"
-        },
-        {
-          "file": "libs/admin-core/project.json",
-          "hash": "9888816989139829399"
-        },
-        {
-          "file": "libs/admin-core/src/index.ts",
-          "hash": "2777949917096187170"
-        },
-        {
-          "file": "libs/admin-core/src/lib/admin-core/admin-core.css",
+          "file": "libs/shared-common/src/lib/shared-common/shared-common.css",
           "hash": "3244421341483603138"
         },
         {
-          "file": "libs/admin-core/src/lib/admin-core/admin-core.html",
-          "hash": "10221138712806419539"
+          "file": "libs/shared-common/src/lib/shared-common/shared-common.html",
+          "hash": "8490776771711582924"
         },
         {
-          "file": "libs/admin-core/src/lib/admin-core/admin-core.spec.ts",
-          "hash": "6338514559160026105",
+          "file": "libs/shared-common/src/lib/shared-common/shared-common.spec.ts",
+          "hash": "3502746844436141193",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
-          "file": "libs/admin-core/src/lib/admin-core/admin-core.ts",
-          "hash": "10497367660861997369",
+          "file": "libs/shared-common/src/lib/shared-common/shared-common.ts",
+          "hash": "16769410612480763562",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
-          "file": "libs/admin-core/src/test-setup.ts",
-          "hash": "1917999429567095215",
+          "file": "libs/shared-common/src/test-setup.ts",
+          "hash": "10311052578323244902",
           "deps": [
             "npm:jest-preset-angular"
           ]
         },
         {
-          "file": "libs/admin-core/tsconfig.json",
-          "hash": "16798562522216220935"
+          "file": "libs/shared-common/tsconfig.json",
+          "hash": "4822129339767490952"
         },
         {
-          "file": "libs/admin-core/tsconfig.lib.json",
-          "hash": "5796668385415907511"
+          "file": "libs/shared-common/tsconfig.lib.json",
+          "hash": "15304444604046903881"
         },
         {
-          "file": "libs/admin-core/tsconfig.spec.json",
-          "hash": "5331518322626158299"
+          "file": "libs/shared-common/tsconfig.spec.json",
+          "hash": "14762606407804485215"
+        }
+      ],
+      "reward-point-common": [
+        {
+          "file": "libs/reward-point-common/README.md",
+          "hash": "2953011427801532236"
+        },
+        {
+          "file": "libs/reward-point-common/eslint.config.mjs",
+          "hash": "18087596490542984526",
+          "deps": [
+            "npm:@nx/eslint-plugin",
+            "undefined"
+          ]
+        },
+        {
+          "file": "libs/reward-point-common/jest.config.ts",
+          "hash": "14875727022436952068"
+        },
+        {
+          "file": "libs/reward-point-common/project.json",
+          "hash": "17805758096519767956"
+        },
+        {
+          "file": "libs/reward-point-common/src/app/lib/components/fligt-list.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/reward-point-common/src/app/lib/components/fligt-list.html",
+          "hash": "13661613688440675433"
+        },
+        {
+          "file": "libs/reward-point-common/src/app/lib/components/fligt-list.spec.ts",
+          "hash": "17520625525633596816",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/reward-point-common/src/app/lib/components/fligt-list.ts",
+          "hash": "13739100438691733211",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/reward-point-common/src/index.ts",
+          "hash": "13279713703263221504"
+        },
+        {
+          "file": "libs/reward-point-common/src/lib/components/fligt-list.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/reward-point-common/src/lib/components/fligt-list.html",
+          "hash": "13661613688440675433"
+        },
+        {
+          "file": "libs/reward-point-common/src/lib/components/fligt-list.spec.ts",
+          "hash": "17520625525633596816",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/reward-point-common/src/lib/components/fligt-list.ts",
+          "hash": "13739100438691733211",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/reward-point-common/src/lib/components/forms.css",
+          "hash": "16706035649695838976"
+        },
+        {
+          "file": "libs/reward-point-common/src/test-setup.ts",
+          "hash": "10311052578323244902",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/reward-point-common/tsconfig.json",
+          "hash": "4822129339767490952"
+        },
+        {
+          "file": "libs/reward-point-common/tsconfig.lib.json",
+          "hash": "15304444604046903881"
+        },
+        {
+          "file": "libs/reward-point-common/tsconfig.spec.json",
+          "hash": "14762606407804485215"
         }
       ],
       "admin-common": [
         {
           "file": "libs/admin-common/README.md",
-          "hash": "4529119010742844037"
+          "hash": "14993324437339010199"
         },
         {
           "file": "libs/admin-common/eslint.config.mjs",
-          "hash": "9628975637710176443",
+          "hash": "18087596490542984526",
           "deps": [
-            "npm:@nx/eslint-plugin"
+            "npm:@nx/eslint-plugin",
+            "undefined"
           ]
         },
         {
           "file": "libs/admin-common/jest.config.ts",
-          "hash": "347566437897655573"
+          "hash": "3630622027063283157"
         },
         {
           "file": "libs/admin-common/project.json",
-          "hash": "2946045622923245425"
+          "hash": "17118047306689603357"
         },
         {
           "file": "libs/admin-common/src/app/lib/components/test.css",
@@ -824,25 +793,25 @@
         },
         {
           "file": "libs/admin-common/src/app/lib/components/test.html",
-          "hash": "10061070156527962308"
+          "hash": "10841845368283051821"
         },
         {
           "file": "libs/admin-common/src/app/lib/components/test.spec.ts",
-          "hash": "6390203091375019612",
+          "hash": "6444613665789164090",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
           "file": "libs/admin-common/src/app/lib/components/test.ts",
-          "hash": "12819655499102408002",
+          "hash": "6306971700442015879",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
           "file": "libs/admin-common/src/index.ts",
-          "hash": "15074307773850692882"
+          "hash": "5809516495590102630"
         },
         {
           "file": "libs/admin-common/src/lib/admin-common/admin-common.css",
@@ -850,53 +819,121 @@
         },
         {
           "file": "libs/admin-common/src/lib/admin-common/admin-common.html",
-          "hash": "643880218273324970"
+          "hash": "6267399426135447465"
         },
         {
           "file": "libs/admin-common/src/lib/admin-common/admin-common.spec.ts",
-          "hash": "17782204119577708043",
+          "hash": "317275383641315298",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
           "file": "libs/admin-common/src/lib/admin-common/admin-common.ts",
-          "hash": "12839486920286432340",
+          "hash": "3917695640184444459",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
           "file": "libs/admin-common/src/test-setup.ts",
-          "hash": "1917999429567095215",
+          "hash": "10311052578323244902",
           "deps": [
             "npm:jest-preset-angular"
           ]
         },
         {
           "file": "libs/admin-common/tsconfig.json",
-          "hash": "16798562522216220935"
+          "hash": "4822129339767490952"
         },
         {
           "file": "libs/admin-common/tsconfig.lib.json",
-          "hash": "5796668385415907511"
+          "hash": "15304444604046903881"
         },
         {
           "file": "libs/admin-common/tsconfig.spec.json",
-          "hash": "5331518322626158299"
+          "hash": "14762606407804485215"
+        }
+      ],
+      "myngapp-shared-core": [
+        {
+          "file": "libs/shared-core/README.md",
+          "hash": "13753099695244325965"
+        },
+        {
+          "file": "libs/shared-core/eslint.config.mjs",
+          "hash": "18087596490542984526",
+          "deps": [
+            "npm:@nx/eslint-plugin",
+            "undefined"
+          ]
+        },
+        {
+          "file": "libs/shared-core/jest.config.ts",
+          "hash": "17837798439060971803"
+        },
+        {
+          "file": "libs/shared-core/project.json",
+          "hash": "4794537411729928036"
+        },
+        {
+          "file": "libs/shared-core/src/index.ts",
+          "hash": "10859044527576958435"
+        },
+        {
+          "file": "libs/shared-core/src/lib/shared-core/shared-core.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/shared-core/src/lib/shared-core/shared-core.html",
+          "hash": "5486253328930738692"
+        },
+        {
+          "file": "libs/shared-core/src/lib/shared-core/shared-core.spec.ts",
+          "hash": "10834899429474988481",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/shared-core/src/lib/shared-core/shared-core.ts",
+          "hash": "10001521328553465083",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/shared-core/src/test-setup.ts",
+          "hash": "10311052578323244902",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/shared-core/tsconfig.json",
+          "hash": "4822129339767490952"
+        },
+        {
+          "file": "libs/shared-core/tsconfig.lib.json",
+          "hash": "15304444604046903881"
+        },
+        {
+          "file": "libs/shared-core/tsconfig.spec.json",
+          "hash": "14762606407804485215"
         }
       ],
       "reward-point-app-e2e": [
         {
           "file": "apps/reward-point-app-e2e/eslint.config.mjs",
-          "hash": "1172734138943286526",
+          "hash": "16243282764819368173",
           "deps": [
-            "npm:eslint-plugin-playwright"
+            "npm:eslint-plugin-playwright",
+            "undefined"
           ]
         },
         {
           "file": "apps/reward-point-app-e2e/playwright.config.ts",
-          "hash": "5859181475024928606",
+          "hash": "2660499062079111734",
           "deps": [
             "npm:@playwright/test",
             "npm:@nx/playwright",
@@ -905,87 +942,88 @@
         },
         {
           "file": "apps/reward-point-app-e2e/project.json",
-          "hash": "13050504868609746939"
+          "hash": "16825773376292888177"
         },
         {
           "file": "apps/reward-point-app-e2e/src/example.spec.ts",
-          "hash": "16019101014373124625",
+          "hash": "1909365745453809229",
           "deps": [
             "npm:@playwright/test"
           ]
         },
         {
           "file": "apps/reward-point-app-e2e/tsconfig.json",
-          "hash": "15726545290547512047"
+          "hash": "17724039105515471508"
         }
       ],
-      "myngapp-shared-core": [
+      "reward-point-core": [
         {
-          "file": "libs/shared-core/README.md",
-          "hash": "3013161786529970173"
+          "file": "libs/reward-point-core/README.md",
+          "hash": "18259373884472245023"
         },
         {
-          "file": "libs/shared-core/eslint.config.mjs",
-          "hash": "9628975637710176443",
+          "file": "libs/reward-point-core/eslint.config.mjs",
+          "hash": "18087596490542984526",
           "deps": [
-            "npm:@nx/eslint-plugin"
+            "npm:@nx/eslint-plugin",
+            "undefined"
           ]
         },
         {
-          "file": "libs/shared-core/jest.config.ts",
-          "hash": "10393459278855232532"
+          "file": "libs/reward-point-core/jest.config.ts",
+          "hash": "1716417709717473881"
         },
         {
-          "file": "libs/shared-core/project.json",
-          "hash": "12170968108841189873"
+          "file": "libs/reward-point-core/project.json",
+          "hash": "16530715615015851524"
         },
         {
-          "file": "libs/shared-core/src/index.ts",
-          "hash": "18139120863243388213"
+          "file": "libs/reward-point-core/src/index.ts",
+          "hash": "8012620153852733998"
         },
         {
-          "file": "libs/shared-core/src/lib/shared-core/shared-core.css",
+          "file": "libs/reward-point-core/src/lib/reward-point-core/reward-point-core.css",
           "hash": "3244421341483603138"
         },
         {
-          "file": "libs/shared-core/src/lib/shared-core/shared-core.html",
-          "hash": "5271092326476718458"
+          "file": "libs/reward-point-core/src/lib/reward-point-core/reward-point-core.html",
+          "hash": "10905438726527426790"
         },
         {
-          "file": "libs/shared-core/src/lib/shared-core/shared-core.spec.ts",
-          "hash": "13917455575308514",
+          "file": "libs/reward-point-core/src/lib/reward-point-core/reward-point-core.spec.ts",
+          "hash": "13356211504218329784",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
-          "file": "libs/shared-core/src/lib/shared-core/shared-core.ts",
-          "hash": "3907708866813923756",
+          "file": "libs/reward-point-core/src/lib/reward-point-core/reward-point-core.ts",
+          "hash": "8180896673361183701",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
-          "file": "libs/shared-core/src/test-setup.ts",
-          "hash": "1917999429567095215",
+          "file": "libs/reward-point-core/src/test-setup.ts",
+          "hash": "10311052578323244902",
           "deps": [
             "npm:jest-preset-angular"
           ]
         },
         {
-          "file": "libs/shared-core/tsconfig.json",
-          "hash": "16798562522216220935"
+          "file": "libs/reward-point-core/tsconfig.json",
+          "hash": "4822129339767490952"
         },
         {
-          "file": "libs/shared-core/tsconfig.lib.json",
-          "hash": "5796668385415907511"
+          "file": "libs/reward-point-core/tsconfig.lib.json",
+          "hash": "15304444604046903881"
         },
         {
-          "file": "libs/shared-core/tsconfig.spec.json",
-          "hash": "5331518322626158299"
+          "file": "libs/reward-point-core/tsconfig.spec.json",
+          "hash": "14762606407804485215"
         }
       ]
     }
   },
-  "externalNodesHash": "8376355270315643683"
+  "externalNodesHash": "4800384308300832359"
 }

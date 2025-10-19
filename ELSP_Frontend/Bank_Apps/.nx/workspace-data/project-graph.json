@@ -1,5 +1,54 @@
 {
   "nodes": {
+    "undefined": {
+      "name": "undefined",
+      "type": "lib",
+      "data": {
+        "root": ".angular/cache/20.2.2/reward-point-app/vite/deps_temp_347264f8",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": ".angular/cache/20.2.2/reward-point-app/vite/deps_temp_347264f8",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/eslint.config.mjs",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "npx eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "admin-portal-app-e2e": {
       "name": "admin-portal-app-e2e",
       "type": "e2e",
@@ -2086,24 +2135,6 @@
         "hash": "sha512-TXv6YnJ8ZMVdX+SXWVBo/0p8LTcrUYngpWjvm91TMjjBQii7Oz11Lw5lbDV5Y0TzuhSJHwiH4hEtC1I42mMS0g=="
       }
     },
-    "npm:chokidar@4.0.3": {
-      "type": "npm",
-      "name": "npm:chokidar@4.0.3",
-      "data": {
-        "version": "4.0.3",
-        "packageName": "chokidar",
-        "hash": "sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA=="
-      }
-    },
-    "npm:chokidar": {
-      "type": "npm",
-      "name": "npm:chokidar",
-      "data": {
-        "version": "3.6.0",
-        "packageName": "chokidar",
-        "hash": "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw=="
-      }
-    },
     "npm:esbuild@0.25.9": {
       "type": "npm",
       "name": "npm:esbuild@0.25.9",
@@ -2120,24 +2151,6 @@
         "version": "0.25.5",
         "packageName": "esbuild",
         "hash": "sha512-P8OtKZRv/5J5hhz0cUAdu/cLuPIKXpQl1R9pZtvmHWQvrAUVd0UNIPT4IB4W3rNOqVO0rlqHmCIbSwxh/c9yUQ=="
-      }
-    },
-    "npm:readdirp@4.1.2": {
-      "type": "npm",
-      "name": "npm:readdirp@4.1.2",
-      "data": {
-        "version": "4.1.2",
-        "packageName": "readdirp",
-        "hash": "sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg=="
-      }
-    },
-    "npm:readdirp": {
-      "type": "npm",
-      "name": "npm:readdirp",
-      "data": {
-        "version": "3.6.0",
-        "packageName": "readdirp",
-        "hash": "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA=="
       }
     },
     "npm:sass@1.90.0": {
@@ -7333,6 +7346,24 @@
         "hash": "sha512-kGHYX2jYf3ZiHwVl0aUEPBOBEIG1aWleCDCAi+Jg32KUu3qr/zDUpCEd0wPuHfLEgk0X0xAEYCS6JMO7nBStNQ=="
       }
     },
+    "npm:chokidar@3.6.0": {
+      "type": "npm",
+      "name": "npm:chokidar@3.6.0",
+      "data": {
+        "version": "3.6.0",
+        "packageName": "chokidar",
+        "hash": "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw=="
+      }
+    },
+    "npm:chokidar": {
+      "type": "npm",
+      "name": "npm:chokidar",
+      "data": {
+        "version": "4.0.3",
+        "packageName": "chokidar",
+        "hash": "sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA=="
+      }
+    },
     "npm:http-proxy-middleware@2.0.9": {
       "type": "npm",
       "name": "npm:http-proxy-middleware@2.0.9",
@@ -7349,6 +7380,24 @@
         "version": "3.0.5",
         "packageName": "http-proxy-middleware",
         "hash": "sha512-GLZZm1X38BPY4lkXA01jhwxvDoOkkXqjgVyUzVxiEK4iuRu03PZoYHhHRwxnfhQMDuaxi3vVri0YgSro/1oWqg=="
+      }
+    },
+    "npm:readdirp@3.6.0": {
+      "type": "npm",
+      "name": "npm:readdirp@3.6.0",
+      "data": {
+        "version": "3.6.0",
+        "packageName": "readdirp",
+        "hash": "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA=="
+      }
+    },
+    "npm:readdirp": {
+      "type": "npm",
+      "name": "npm:readdirp",
+      "data": {
+        "version": "4.1.2",
+        "packageName": "readdirp",
+        "hash": "sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg=="
       }
     },
     "npm:@rspack/lite-tapable": {
@@ -9734,6 +9783,24 @@
         "version": "9.0.0",
         "packageName": "cosmiconfig",
         "hash": "sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg=="
+      }
+    },
+    "npm:yaml@1.10.2": {
+      "type": "npm",
+      "name": "npm:yaml@1.10.2",
+      "data": {
+        "version": "1.10.2",
+        "packageName": "yaml",
+        "hash": "sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg=="
+      }
+    },
+    "npm:yaml": {
+      "type": "npm",
+      "name": "npm:yaml",
+      "data": {
+        "version": "2.8.1",
+        "packageName": "yaml",
+        "hash": "sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw=="
       }
     },
     "npm:create-jest": {
@@ -13147,24 +13214,6 @@
         "hash": "sha512-+XwzK3OWZw/7zLdhNHBms9VdAA8F6w6QsX8qFQ3+3CnbqEy0IDmVxTXb8c711LDMbEtNn94EiWvSV6C00FKw9Q=="
       }
     },
-    "npm:yaml@2.8.1": {
-      "type": "npm",
-      "name": "npm:yaml@2.8.1",
-      "data": {
-        "version": "2.8.1",
-        "packageName": "yaml",
-        "hash": "sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw=="
-      }
-    },
-    "npm:yaml": {
-      "type": "npm",
-      "name": "npm:yaml",
-      "data": {
-        "version": "1.10.2",
-        "packageName": "yaml",
-        "hash": "sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg=="
-      }
-    },
     "npm:object-assign": {
       "type": "npm",
       "name": "npm:object-assign",
@@ -14002,6 +14051,24 @@
         "hash": "sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg=="
       }
     },
+    "npm:react": {
+      "type": "npm",
+      "name": "npm:react",
+      "data": {
+        "version": "19.2.0",
+        "packageName": "react",
+        "hash": "sha512-tmbWg6W31tQLeB5cdIBOicJDJRR2KzXsV7uSK9iNfLWQ5bIZfxuPEHp7M8wiHyHnn0DD1i7w3Zmin0FtkrwoCQ=="
+      }
+    },
+    "npm:react-dom": {
+      "type": "npm",
+      "name": "npm:react-dom",
+      "data": {
+        "version": "19.2.0",
+        "packageName": "react-dom",
+        "hash": "sha512-UlbRu4cAiGaIewkPyiRGJk0imDN2T3JjieT6spoL2UeSf5od4n5LB/mQ4ejmxhCFT1tYe8IvaFulzynWovsEFQ=="
+      }
+    },
     "npm:react-is": {
       "type": "npm",
       "name": "npm:react-is",
@@ -14009,6 +14076,15 @@
         "version": "18.3.1",
         "packageName": "react-is",
         "hash": "sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg=="
+      }
+    },
+    "npm:react-refresh": {
+      "type": "npm",
+      "name": "npm:react-refresh",
+      "data": {
+        "version": "0.18.0",
+        "packageName": "react-refresh",
+        "hash": "sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw=="
       }
     },
     "npm:read-cache": {
@@ -14414,6 +14490,15 @@
         "version": "6.0.0",
         "packageName": "saxes",
         "hash": "sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA=="
+      }
+    },
+    "npm:scheduler": {
+      "type": "npm",
+      "name": "npm:scheduler",
+      "data": {
+        "version": "0.27.0",
+        "packageName": "scheduler",
+        "hash": "sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q=="
       }
     },
     "npm:secure-compare": {
@@ -15651,6 +15736,7 @@
     }
   },
   "dependencies": {
+    "undefined": [],
     "admin-portal-app-e2e": [
       {
         "source": "admin-portal-app-e2e",
@@ -15660,6 +15746,11 @@
       {
         "source": "admin-portal-app-e2e",
         "target": "npm:eslint-plugin-playwright",
+        "type": "static"
+      },
+      {
+        "source": "admin-portal-app-e2e",
+        "target": "undefined",
         "type": "static"
       },
       {
@@ -15691,6 +15782,11 @@
       },
       {
         "source": "reward-point-app-e2e",
+        "target": "undefined",
+        "type": "static"
+      },
+      {
+        "source": "reward-point-app-e2e",
         "target": "npm:@playwright/test",
         "type": "static"
       },
@@ -15713,6 +15809,11 @@
       },
       {
         "source": "reward-point-common",
+        "target": "undefined",
+        "type": "static"
+      },
+      {
+        "source": "reward-point-common",
         "target": "npm:@angular/core",
         "type": "static"
       },
@@ -15730,6 +15831,11 @@
       },
       {
         "source": "reward-point-core",
+        "target": "undefined",
+        "type": "static"
+      },
+      {
+        "source": "reward-point-core",
         "target": "npm:@angular/core",
         "type": "static"
       },
@@ -15743,6 +15849,11 @@
       {
         "source": "admin-portal-app",
         "target": "npm:@nx/eslint-plugin",
+        "type": "static"
+      },
+      {
+        "source": "admin-portal-app",
+        "target": "undefined",
         "type": "static"
       },
       {
@@ -15780,6 +15891,11 @@
       {
         "source": "reward-point-app",
         "target": "npm:@nx/eslint-plugin",
+        "type": "static"
+      },
+      {
+        "source": "reward-point-app",
+        "target": "undefined",
         "type": "static"
       },
       {
@@ -15826,6 +15942,11 @@
       },
       {
         "source": "myngapp-shared-common",
+        "target": "undefined",
+        "type": "static"
+      },
+      {
+        "source": "myngapp-shared-common",
         "target": "npm:@angular/core",
         "type": "static"
       },
@@ -15839,6 +15960,11 @@
       {
         "source": "admin-common",
         "target": "npm:@nx/eslint-plugin",
+        "type": "static"
+      },
+      {
+        "source": "admin-common",
+        "target": "undefined",
         "type": "static"
       },
       {
@@ -15860,6 +15986,11 @@
       },
       {
         "source": "myngapp-shared-core",
+        "target": "undefined",
+        "type": "static"
+      },
+      {
+        "source": "myngapp-shared-core",
         "target": "npm:@angular/core",
         "type": "static"
       },
@@ -15873,6 +16004,11 @@
       {
         "source": "myngapp-admin-core",
         "target": "npm:@nx/eslint-plugin",
+        "type": "static"
+      },
+      {
+        "source": "myngapp-admin-core",
+        "target": "undefined",
         "type": "static"
       },
       {
@@ -16152,6 +16288,11 @@
       }
     ],
     "npm:@angular-devkit/core": [
+      {
+        "source": "npm:@angular-devkit/core",
+        "target": "npm:chokidar",
+        "type": "static"
+      },
       {
         "source": "npm:@angular-devkit/core",
         "target": "npm:ajv",
@@ -16774,13 +16915,6 @@
         "type": "static"
       }
     ],
-    "npm:chokidar@4.0.3": [
-      {
-        "source": "npm:chokidar@4.0.3",
-        "target": "npm:readdirp@4.1.2",
-        "type": "static"
-      }
-    ],
     "npm:esbuild@0.25.9": [
       {
         "source": "npm:esbuild@0.25.9",
@@ -16916,7 +17050,7 @@
     "npm:sass@1.90.0": [
       {
         "source": "npm:sass@1.90.0",
-        "target": "npm:chokidar@4.0.3",
+        "target": "npm:chokidar",
         "type": "static"
       },
       {
@@ -17210,7 +17344,7 @@
       },
       {
         "source": "npm:@angular/compiler-cli",
-        "target": "npm:chokidar@4.0.3",
+        "target": "npm:chokidar",
         "type": "static"
       },
       {
@@ -22784,6 +22918,16 @@
     "npm:@module-federation/data-prefetch": [
       {
         "source": "npm:@module-federation/data-prefetch",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "npm:@module-federation/data-prefetch",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "npm:@module-federation/data-prefetch",
         "target": "npm:@module-federation/runtime",
         "type": "static"
       },
@@ -23021,6 +23165,16 @@
     "npm:@module-federation/node": [
       {
         "source": "npm:@module-federation/node",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "npm:@module-federation/node",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "npm:@module-federation/node",
         "target": "npm:webpack",
         "type": "static"
       },
@@ -23100,6 +23254,16 @@
       }
     ],
     "npm:@module-federation/data-prefetch@0.19.1": [
+      {
+        "source": "npm:@module-federation/data-prefetch@0.19.1",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "npm:@module-federation/data-prefetch@0.19.1",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
       {
         "source": "npm:@module-federation/data-prefetch@0.19.1",
         "target": "npm:@module-federation/runtime@0.19.1",
@@ -25194,7 +25358,7 @@
       },
       {
         "source": "npm:@rspack/dev-server",
-        "target": "npm:chokidar",
+        "target": "npm:chokidar@3.6.0",
         "type": "static"
       },
       {
@@ -25215,6 +25379,48 @@
       {
         "source": "npm:@rspack/dev-server",
         "target": "npm:ws",
+        "type": "static"
+      }
+    ],
+    "npm:chokidar@3.6.0": [
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:anymatch",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:braces",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:glob-parent",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:is-binary-path",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:is-glob",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:normalize-path",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:readdirp@3.6.0",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:fsevents",
         "type": "static"
       }
     ],
@@ -25250,7 +25456,19 @@
         "type": "static"
       }
     ],
+    "npm:readdirp@3.6.0": [
+      {
+        "source": "npm:readdirp@3.6.0",
+        "target": "npm:picomatch@2.3.1",
+        "type": "static"
+      }
+    ],
     "npm:@rspack/plugin-react-refresh": [
+      {
+        "source": "npm:@rspack/plugin-react-refresh",
+        "target": "npm:react-refresh",
+        "type": "static"
+      },
       {
         "source": "npm:@rspack/plugin-react-refresh",
         "target": "npm:error-stack-parser",
@@ -27353,42 +27571,7 @@
     "npm:chokidar": [
       {
         "source": "npm:chokidar",
-        "target": "npm:anymatch",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
-        "target": "npm:braces",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
-        "target": "npm:glob-parent",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
-        "target": "npm:is-binary-path",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
-        "target": "npm:is-glob",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
-        "target": "npm:normalize-path",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
         "target": "npm:readdirp",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
-        "target": "npm:fsevents",
         "type": "static"
       }
     ],
@@ -27634,7 +27817,7 @@
       },
       {
         "source": "npm:cosmiconfig",
-        "target": "npm:yaml",
+        "target": "npm:yaml@1.10.2",
         "type": "static"
       }
     ],
@@ -29195,7 +29378,7 @@
       },
       {
         "source": "npm:fork-ts-checker-webpack-plugin",
-        "target": "npm:chokidar",
+        "target": "npm:chokidar@3.6.0",
         "type": "static"
       },
       {
@@ -33026,7 +33209,7 @@
       },
       {
         "source": "npm:nx",
-        "target": "npm:yaml@2.8.1",
+        "target": "npm:yaml",
         "type": "static"
       },
       {
@@ -34109,6 +34292,18 @@
         "type": "static"
       }
     ],
+    "npm:react-dom": [
+      {
+        "source": "npm:react-dom",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "npm:react-dom",
+        "target": "npm:scheduler",
+        "type": "static"
+      }
+    ],
     "npm:read-cache": [
       {
         "source": "npm:read-cache",
@@ -34130,13 +34325,6 @@
       {
         "source": "npm:readable-stream",
         "target": "npm:util-deprecate",
-        "type": "static"
-      }
-    ],
-    "npm:readdirp": [
-      {
-        "source": "npm:readdirp",
-        "target": "npm:picomatch@2.3.1",
         "type": "static"
       }
     ],
@@ -34492,7 +34680,7 @@
     "npm:sass": [
       {
         "source": "npm:sass",
-        "target": "npm:chokidar@4.0.3",
+        "target": "npm:chokidar",
         "type": "static"
       },
       {
@@ -35646,7 +35834,7 @@
       },
       {
         "source": "npm:ts-checker-rspack-plugin",
-        "target": "npm:chokidar",
+        "target": "npm:chokidar@3.6.0",
         "type": "static"
       },
       {
@@ -36238,6 +36426,11 @@
       },
       {
         "source": "npm:vite",
+        "target": "npm:yaml",
+        "type": "static"
+      },
+      {
+        "source": "npm:vite",
         "target": "npm:esbuild",
         "type": "static"
       },
@@ -36534,7 +36727,7 @@
       },
       {
         "source": "npm:webpack-dev-server",
-        "target": "npm:chokidar",
+        "target": "npm:chokidar@3.6.0",
         "type": "static"
       },
       {
@@ -36823,6 +37016,977 @@
     ]
   },
   "version": "6.0",
-  "errors": [],
-  "computedAt": 1759924179070
+  "errors": [
+    {
+      "projectRoots": [
+        ".angular/cache/20.2.2/reward-point-app/vite/deps_temp_347264f8"
+      ],
+      "projects": {
+        "admin-portal-app-e2e": {
+          "root": "apps/admin-portal-app-e2e",
+          "metadata": {
+            "targetGroups": {
+              "E2E (CI)": [
+                "e2e-ci--src/example.spec.ts",
+                "e2e-ci"
+              ]
+            }
+          },
+          "targets": {
+            "e2e": {
+              "options": {
+                "cwd": "apps/admin-portal-app-e2e",
+                "command": "playwright test"
+              },
+              "metadata": {
+                "technologies": [
+                  "playwright"
+                ],
+                "description": "Runs Playwright Tests",
+                "help": {
+                  "command": "npx playwright test --help",
+                  "example": {
+                    "options": {
+                      "workers": 1
+                    }
+                  }
+                }
+              },
+              "dependsOn": [
+                {
+                  "projects": [
+                    "admin-portal-app"
+                  ],
+                  "target": "serve"
+                }
+              ],
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                {
+                  "externalDependencies": [
+                    "@playwright/test"
+                  ]
+                }
+              ],
+              "outputs": [
+                "{workspaceRoot}/dist/.playwright/apps/admin-portal-app-e2e/test-output",
+                "{workspaceRoot}/dist/.playwright/apps/admin-portal-app-e2e/playwright-report"
+              ],
+              "executor": "nx:run-commands",
+              "configurations": {},
+              "parallelism": true
+            },
+            "e2e-ci--src/example.spec.ts": {
+              "options": {
+                "cwd": "apps/admin-portal-app-e2e",
+                "env": {
+                  "PLAYWRIGHT_HTML_OUTPUT_DIR": "..\\..\\dist\\.playwright\\apps\\admin-portal-app-e2e\\playwright-report\\src-example-spec-ts",
+                  "PLAYWRIGHT_HTML_REPORT": "..\\..\\dist\\.playwright\\apps\\admin-portal-app-e2e\\playwright-report\\src-example-spec-ts"
+                },
+                "command": "playwright test src/example.spec.ts --output=..\\..\\dist\\.playwright\\apps\\admin-portal-app-e2e\\test-output\\src-example-spec-ts"
+              },
+              "metadata": {
+                "technologies": [
+                  "playwright"
+                ],
+                "description": "Runs Playwright Tests in src/example.spec.ts in CI",
+                "help": {
+                  "command": "npx playwright test --help",
+                  "example": {
+                    "options": {
+                      "workers": 1
+                    }
+                  }
+                }
+              },
+              "dependsOn": [
+                {
+                  "projects": [
+                    "admin-portal-app"
+                  ],
+                  "target": "serve"
+                }
+              ],
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                {
+                  "externalDependencies": [
+                    "@playwright/test"
+                  ]
+                }
+              ],
+              "outputs": [
+                "{workspaceRoot}/dist/.playwright/apps/admin-portal-app-e2e/test-output/src-example-spec-ts",
+                "{workspaceRoot}/dist/.playwright/apps/admin-portal-app-e2e/playwright-report/src-example-spec-ts"
+              ],
+              "executor": "nx:run-commands",
+              "configurations": {},
+              "parallelism": true
+            },
+            "e2e-ci": {
+              "executor": "nx:noop",
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                {
+                  "externalDependencies": [
+                    "@playwright/test"
+                  ]
+                }
+              ],
+              "outputs": [
+                "{workspaceRoot}/dist/.playwright/apps/admin-portal-app-e2e/test-output",
+                "{workspaceRoot}/dist/.playwright/apps/admin-portal-app-e2e/playwright-report"
+              ],
+              "dependsOn": [
+                {
+                  "target": "e2e-ci--src/example.spec.ts",
+                  "projects": "self",
+                  "params": "forward"
+                }
+              ],
+              "metadata": {
+                "technologies": [
+                  "playwright"
+                ],
+                "description": "Runs Playwright Tests in CI",
+                "nonAtomizedTarget": "e2e",
+                "help": {
+                  "command": "npx playwright test --help",
+                  "example": {
+                    "options": {
+                      "workers": 1
+                    }
+                  }
+                }
+              },
+              "configurations": {},
+              "options": {},
+              "parallelism": true
+            },
+            "lint": {
+              "cache": true,
+              "options": {
+                "cwd": "apps/admin-portal-app-e2e",
+                "command": "eslint ."
+              },
+              "inputs": [
+                "default",
+                "^default",
+                "{workspaceRoot}/eslint.config.mjs",
+                "{workspaceRoot}/apps/admin-portal-app-e2e/eslint.config.mjs",
+                "{workspaceRoot}/tools/eslint-rules/**/*",
+                {
+                  "externalDependencies": [
+                    "eslint"
+                  ]
+                }
+              ],
+              "outputs": [
+                "{options.outputFile}"
+              ],
+              "metadata": {
+                "technologies": [
+                  "eslint"
+                ],
+                "description": "Runs ESLint on project",
+                "help": {
+                  "command": "npx eslint --help",
+                  "example": {
+                    "options": {
+                      "max-warnings": 0
+                    }
+                  }
+                }
+              },
+              "executor": "nx:run-commands",
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "admin-portal-app-e2e",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "projectType": "application",
+          "sourceRoot": "apps/admin-portal-app-e2e/src",
+          "implicitDependencies": [
+            "admin-portal-app"
+          ]
+        },
+        "reward-point-app-e2e": {
+          "root": "apps/reward-point-app-e2e",
+          "metadata": {
+            "targetGroups": {
+              "E2E (CI)": [
+                "e2e-ci--src/example.spec.ts",
+                "e2e-ci"
+              ]
+            }
+          },
+          "targets": {
+            "e2e": {
+              "options": {
+                "cwd": "apps/reward-point-app-e2e",
+                "command": "playwright test"
+              },
+              "metadata": {
+                "technologies": [
+                  "playwright"
+                ],
+                "description": "Runs Playwright Tests",
+                "help": {
+                  "command": "npx playwright test --help",
+                  "example": {
+                    "options": {
+                      "workers": 1
+                    }
+                  }
+                }
+              },
+              "dependsOn": [
+                {
+                  "projects": [
+                    "reward-point-app"
+                  ],
+                  "target": "serve"
+                }
+              ],
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                {
+                  "externalDependencies": [
+                    "@playwright/test"
+                  ]
+                }
+              ],
+              "outputs": [
+                "{workspaceRoot}/dist/.playwright/apps/reward-point-app-e2e/test-output",
+                "{workspaceRoot}/dist/.playwright/apps/reward-point-app-e2e/playwright-report"
+              ],
+              "executor": "nx:run-commands",
+              "configurations": {},
+              "parallelism": true
+            },
+            "e2e-ci--src/example.spec.ts": {
+              "options": {
+                "cwd": "apps/reward-point-app-e2e",
+                "env": {
+                  "PLAYWRIGHT_HTML_OUTPUT_DIR": "..\\..\\dist\\.playwright\\apps\\reward-point-app-e2e\\playwright-report\\src-example-spec-ts",
+                  "PLAYWRIGHT_HTML_REPORT": "..\\..\\dist\\.playwright\\apps\\reward-point-app-e2e\\playwright-report\\src-example-spec-ts"
+                },
+                "command": "playwright test src/example.spec.ts --output=..\\..\\dist\\.playwright\\apps\\reward-point-app-e2e\\test-output\\src-example-spec-ts"
+              },
+              "metadata": {
+                "technologies": [
+                  "playwright"
+                ],
+                "description": "Runs Playwright Tests in src/example.spec.ts in CI",
+                "help": {
+                  "command": "npx playwright test --help",
+                  "example": {
+                    "options": {
+                      "workers": 1
+                    }
+                  }
+                }
+              },
+              "dependsOn": [
+                {
+                  "projects": [
+                    "reward-point-app"
+                  ],
+                  "target": "serve"
+                }
+              ],
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                {
+                  "externalDependencies": [
+                    "@playwright/test"
+                  ]
+                }
+              ],
+              "outputs": [
+                "{workspaceRoot}/dist/.playwright/apps/reward-point-app-e2e/test-output/src-example-spec-ts",
+                "{workspaceRoot}/dist/.playwright/apps/reward-point-app-e2e/playwright-report/src-example-spec-ts"
+              ],
+              "executor": "nx:run-commands",
+              "configurations": {},
+              "parallelism": true
+            },
+            "e2e-ci": {
+              "executor": "nx:noop",
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                {
+                  "externalDependencies": [
+                    "@playwright/test"
+                  ]
+                }
+              ],
+              "outputs": [
+                "{workspaceRoot}/dist/.playwright/apps/reward-point-app-e2e/test-output",
+                "{workspaceRoot}/dist/.playwright/apps/reward-point-app-e2e/playwright-report"
+              ],
+              "dependsOn": [
+                {
+                  "target": "e2e-ci--src/example.spec.ts",
+                  "projects": "self",
+                  "params": "forward"
+                }
+              ],
+              "metadata": {
+                "technologies": [
+                  "playwright"
+                ],
+                "description": "Runs Playwright Tests in CI",
+                "nonAtomizedTarget": "e2e",
+                "help": {
+                  "command": "npx playwright test --help",
+                  "example": {
+                    "options": {
+                      "workers": 1
+                    }
+                  }
+                }
+              },
+              "configurations": {},
+              "options": {},
+              "parallelism": true
+            },
+            "lint": {
+              "cache": true,
+              "options": {
+                "cwd": "apps/reward-point-app-e2e",
+                "command": "eslint ."
+              },
+              "inputs": [
+                "default",
+                "^default",
+                "{workspaceRoot}/eslint.config.mjs",
+                "{workspaceRoot}/apps/reward-point-app-e2e/eslint.config.mjs",
+                "{workspaceRoot}/tools/eslint-rules/**/*",
+                {
+                  "externalDependencies": [
+                    "eslint"
+                  ]
+                }
+              ],
+              "outputs": [
+                "{options.outputFile}"
+              ],
+              "metadata": {
+                "technologies": [
+                  "eslint"
+                ],
+                "description": "Runs ESLint on project",
+                "help": {
+                  "command": "npx eslint --help",
+                  "example": {
+                    "options": {
+                      "max-warnings": 0
+                    }
+                  }
+                }
+              },
+              "executor": "nx:run-commands",
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "reward-point-app-e2e",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "projectType": "application",
+          "sourceRoot": "apps/reward-point-app-e2e/src",
+          "implicitDependencies": [
+            "reward-point-app"
+          ]
+        },
+        "admin-portal-app": {
+          "root": "apps/admin-portal-app",
+          "targets": {
+            "lint": {
+              "executor": "@nx/eslint:lint",
+              "options": {},
+              "configurations": {},
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "{workspaceRoot}/.eslintrc.json",
+                "{workspaceRoot}/.eslintignore",
+                "{workspaceRoot}/eslint.config.mjs"
+              ]
+            },
+            "build": {
+              "executor": "@angular/build:application",
+              "outputs": [
+                "{options.outputPath}"
+              ],
+              "options": {
+                "outputPath": "dist/apps/admin-portal-app",
+                "browser": "apps/admin-portal-app/src/main.ts",
+                "polyfills": [
+                  "zone.js"
+                ],
+                "tsConfig": "apps/admin-portal-app/tsconfig.app.json",
+                "assets": [
+                  {
+                    "glob": "**/*",
+                    "input": "apps/admin-portal-app/public"
+                  }
+                ],
+                "styles": [
+                  "apps/admin-portal-app/src/styles.css"
+                ]
+              },
+              "configurations": {
+                "production": {
+                  "budgets": [
+                    {
+                      "type": "initial",
+                      "maximumWarning": "500kb",
+                      "maximumError": "1mb"
+                    },
+                    {
+                      "type": "anyComponentStyle",
+                      "maximumWarning": "4kb",
+                      "maximumError": "8kb"
+                    }
+                  ],
+                  "outputHashing": "all"
+                },
+                "development": {
+                  "optimization": false,
+                  "extractLicenses": false,
+                  "sourceMap": true
+                }
+              },
+              "defaultConfiguration": "production",
+              "parallelism": true,
+              "cache": true,
+              "dependsOn": [
+                "^build"
+              ],
+              "inputs": [
+                "production",
+                "^production"
+              ]
+            },
+            "serve": {
+              "continuous": true,
+              "executor": "@angular/build:dev-server",
+              "configurations": {
+                "production": {
+                  "buildTarget": "admin-portal-app:build:production"
+                },
+                "development": {
+                  "buildTarget": "admin-portal-app:build:development"
+                }
+              },
+              "defaultConfiguration": "development",
+              "options": {},
+              "parallelism": true
+            },
+            "extract-i18n": {
+              "executor": "@angular/build:extract-i18n",
+              "options": {
+                "buildTarget": "admin-portal-app:build"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "@nx/jest:jest",
+              "outputs": [
+                "{workspaceRoot}/coverage/{projectRoot}"
+              ],
+              "options": {
+                "jestConfig": "apps/admin-portal-app/jest.config.ts",
+                "tsConfig": "apps/admin-portal-app/tsconfig.spec.json",
+                "passWithNoTests": true
+              },
+              "configurations": {
+                "ci": {
+                  "ci": true,
+                  "codeCoverage": true
+                }
+              },
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                "{workspaceRoot}/jest.preset.js"
+              ]
+            },
+            "serve-static": {
+              "continuous": true,
+              "executor": "@nx/web:file-server",
+              "options": {
+                "buildTarget": "admin-portal-app:build",
+                "port": 4200,
+                "staticFilePath": "dist/apps/admin-portal-app/browser",
+                "spa": true
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "admin-portal-app",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "projectType": "application",
+          "prefix": "app",
+          "sourceRoot": "apps/admin-portal-app/src",
+          "tags": [],
+          "implicitDependencies": []
+        },
+        "reward-point-app": {
+          "root": "apps/reward-point-app",
+          "targets": {
+            "lint": {
+              "executor": "@nx/eslint:lint",
+              "options": {},
+              "configurations": {},
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "{workspaceRoot}/.eslintrc.json",
+                "{workspaceRoot}/.eslintignore",
+                "{workspaceRoot}/eslint.config.mjs"
+              ]
+            },
+            "build": {
+              "executor": "@angular/build:application",
+              "outputs": [
+                "{options.outputPath}"
+              ],
+              "options": {
+                "outputPath": "dist/apps/reward-point-app",
+                "browser": "apps/reward-point-app/src/main.ts",
+                "polyfills": [
+                  "zone.js"
+                ],
+                "tsConfig": "apps/reward-point-app/tsconfig.app.json",
+                "assets": [
+                  {
+                    "glob": "**/*",
+                    "input": "apps/reward-point-app/public"
+                  }
+                ],
+                "styles": [
+                  "apps/reward-point-app/src/styles.css"
+                ]
+              },
+              "configurations": {
+                "production": {
+                  "budgets": [
+                    {
+                      "type": "initial",
+                      "maximumWarning": "500kb",
+                      "maximumError": "1mb"
+                    },
+                    {
+                      "type": "anyComponentStyle",
+                      "maximumWarning": "4kb",
+                      "maximumError": "8kb"
+                    }
+                  ],
+                  "outputHashing": "all"
+                },
+                "development": {
+                  "optimization": false,
+                  "extractLicenses": false,
+                  "sourceMap": true
+                }
+              },
+              "defaultConfiguration": "production",
+              "parallelism": true,
+              "cache": true,
+              "dependsOn": [
+                "^build"
+              ],
+              "inputs": [
+                "production",
+                "^production"
+              ]
+            },
+            "serve": {
+              "continuous": true,
+              "executor": "@angular/build:dev-server",
+              "configurations": {
+                "production": {
+                  "buildTarget": "reward-point-app:build:production"
+                },
+                "development": {
+                  "buildTarget": "reward-point-app:build:development"
+                }
+              },
+              "defaultConfiguration": "development",
+              "options": {},
+              "parallelism": true
+            },
+            "extract-i18n": {
+              "executor": "@angular/build:extract-i18n",
+              "options": {
+                "buildTarget": "reward-point-app:build"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "@nx/jest:jest",
+              "outputs": [
+                "{workspaceRoot}/coverage/{projectRoot}"
+              ],
+              "options": {
+                "jestConfig": "apps/reward-point-app/jest.config.ts",
+                "tsConfig": "apps/reward-point-app/tsconfig.spec.json",
+                "passWithNoTests": true
+              },
+              "configurations": {
+                "ci": {
+                  "ci": true,
+                  "codeCoverage": true
+                }
+              },
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                "{workspaceRoot}/jest.preset.js"
+              ]
+            },
+            "serve-static": {
+              "continuous": true,
+              "executor": "@nx/web:file-server",
+              "options": {
+                "buildTarget": "reward-point-app:build",
+                "port": 4200,
+                "staticFilePath": "dist/apps/reward-point-app/browser",
+                "spa": true
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "reward-point-app",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "projectType": "application",
+          "prefix": "app",
+          "sourceRoot": "apps/reward-point-app/src",
+          "tags": [],
+          "implicitDependencies": []
+        },
+        "admin-common": {
+          "root": "libs/admin-common",
+          "targets": {
+            "lint": {
+              "executor": "@nx/eslint:lint",
+              "options": {},
+              "configurations": {},
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "{workspaceRoot}/.eslintrc.json",
+                "{workspaceRoot}/.eslintignore",
+                "{workspaceRoot}/eslint.config.mjs"
+              ]
+            },
+            "test": {
+              "executor": "@nx/jest:jest",
+              "outputs": [
+                "{workspaceRoot}/coverage/{projectRoot}"
+              ],
+              "options": {
+                "jestConfig": "libs/admin-common/jest.config.ts",
+                "tsConfig": "libs/admin-common/tsconfig.spec.json",
+                "passWithNoTests": true
+              },
+              "configurations": {
+                "ci": {
+                  "ci": true,
+                  "codeCoverage": true
+                }
+              },
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                "{workspaceRoot}/jest.preset.js"
+              ]
+            }
+          },
+          "name": "admin-common",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "libs/admin-common/src",
+          "prefix": "lib",
+          "projectType": "library",
+          "tags": [],
+          "implicitDependencies": []
+        },
+        "myngapp-admin-core": {
+          "root": "libs/admin-core",
+          "targets": {
+            "lint": {
+              "executor": "@nx/eslint:lint",
+              "options": {},
+              "configurations": {},
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "{workspaceRoot}/.eslintrc.json",
+                "{workspaceRoot}/.eslintignore",
+                "{workspaceRoot}/eslint.config.mjs"
+              ]
+            },
+            "test": {
+              "executor": "@nx/jest:jest",
+              "outputs": [
+                "{workspaceRoot}/coverage/{projectRoot}"
+              ],
+              "options": {
+                "jestConfig": "libs/admin-core/jest.config.ts",
+                "tsConfig": "libs/admin-core/tsconfig.spec.json",
+                "passWithNoTests": true
+              },
+              "configurations": {
+                "ci": {
+                  "ci": true,
+                  "codeCoverage": true
+                }
+              },
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                "{workspaceRoot}/jest.preset.js"
+              ]
+            }
+          },
+          "name": "myngapp-admin-core",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "libs/admin-core/src",
+          "prefix": "lib",
+          "projectType": "library",
+          "tags": [],
+          "implicitDependencies": []
+        },
+        "reward-point-common": {
+          "root": "libs/reward-point-common",
+          "targets": {
+            "lint": {
+              "executor": "@nx/eslint:lint",
+              "options": {},
+              "configurations": {},
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "{workspaceRoot}/.eslintrc.json",
+                "{workspaceRoot}/.eslintignore",
+                "{workspaceRoot}/eslint.config.mjs"
+              ]
+            },
+            "test": {
+              "executor": "@nx/jest:jest",
+              "outputs": [
+                "{workspaceRoot}/coverage/{projectRoot}"
+              ],
+              "options": {
+                "jestConfig": "libs/reward-point-common/jest.config.ts",
+                "tsConfig": "libs/reward-point-common/tsconfig.spec.json",
+                "passWithNoTests": true
+              },
+              "configurations": {
+                "ci": {
+                  "ci": true,
+                  "codeCoverage": true
+                }
+              },
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                "{workspaceRoot}/jest.preset.js"
+              ]
+            }
+          },
+          "name": "reward-point-common",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "libs/reward-point-common/src",
+          "prefix": "lib",
+          "projectType": "library",
+          "tags": [],
+          "implicitDependencies": []
+        },
+        "reward-point-core": {
+          "root": "libs/reward-point-core",
+          "targets": {
+            "lint": {
+              "executor": "@nx/eslint:lint",
+              "options": {},
+              "configurations": {},
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "{workspaceRoot}/.eslintrc.json",
+                "{workspaceRoot}/.eslintignore",
+                "{workspaceRoot}/eslint.config.mjs"
+              ]
+            },
+            "test": {
+              "executor": "@nx/jest:jest",
+              "outputs": [
+                "{workspaceRoot}/coverage/{projectRoot}"
+              ],
+              "options": {
+                "jestConfig": "libs/reward-point-core/jest.config.ts",
+                "tsConfig": "libs/reward-point-core/tsconfig.spec.json",
+                "passWithNoTests": true
+              },
+              "configurations": {
+                "ci": {
+                  "ci": true,
+                  "codeCoverage": true
+                }
+              },
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                "{workspaceRoot}/jest.preset.js"
+              ]
+            }
+          },
+          "name": "reward-point-core",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "libs/reward-point-core/src",
+          "prefix": "lib",
+          "projectType": "library",
+          "tags": [],
+          "implicitDependencies": []
+        },
+        "myngapp-shared-common": {
+          "root": "libs/shared-common",
+          "targets": {
+            "lint": {
+              "executor": "@nx/eslint:lint",
+              "options": {},
+              "configurations": {},
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "{workspaceRoot}/.eslintrc.json",
+                "{workspaceRoot}/.eslintignore",
+                "{workspaceRoot}/eslint.config.mjs"
+              ]
+            },
+            "test": {
+              "executor": "@nx/jest:jest",
+              "outputs": [
+                "{workspaceRoot}/coverage/{projectRoot}"
+              ],
+              "options": {
+                "jestConfig": "libs/shared-common/jest.config.ts",
+                "tsConfig": "libs/shared-common/tsconfig.spec.json",
+                "passWithNoTests": true
+              },
+              "configurations": {
+                "ci": {
+                  "ci": true,
+                  "codeCoverage": true
+                }
+              },
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                "{workspaceRoot}/jest.preset.js"
+              ]
+            }
+          },
+          "name": "myngapp-shared-common",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "libs/shared-common/src",
+          "prefix": "lib",
+          "projectType": "library",
+          "tags": [],
+          "implicitDependencies": []
+        },
+        "myngapp-shared-core": {
+          "root": "libs/shared-core",
+          "targets": {
+            "lint": {
+              "executor": "@nx/eslint:lint",
+              "options": {},
+              "configurations": {},
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "{workspaceRoot}/.eslintrc.json",
+                "{workspaceRoot}/.eslintignore",
+                "{workspaceRoot}/eslint.config.mjs"
+              ]
+            },
+            "test": {
+              "executor": "@nx/jest:jest",
+              "outputs": [
+                "{workspaceRoot}/coverage/{projectRoot}"
+              ],
+              "options": {
+                "jestConfig": "libs/shared-core/jest.config.ts",
+                "tsConfig": "libs/shared-core/tsconfig.spec.json",
+                "passWithNoTests": true
+              },
+              "configurations": {
+                "ci": {
+                  "ci": true,
+                  "codeCoverage": true
+                }
+              },
+              "parallelism": true,
+              "cache": true,
+              "inputs": [
+                "default",
+                "^production",
+                "{workspaceRoot}/jest.preset.js"
+              ]
+            }
+          },
+          "name": "myngapp-shared-core",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "libs/shared-core/src",
+          "prefix": "lib",
+          "projectType": "library",
+          "tags": [],
+          "implicitDependencies": []
+        }
+      },
+      "name": "ProjectsWithNoNameError"
+    }
+  ],
+  "computedAt": 1760908716789
 }
