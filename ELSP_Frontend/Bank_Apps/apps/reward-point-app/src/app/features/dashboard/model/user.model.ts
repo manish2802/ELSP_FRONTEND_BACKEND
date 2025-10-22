@@ -4,4 +4,5 @@ export interface User {
   emailid: string;
   phone: string;
   bankCustomerId: string;
+  rewardPoints: number;
 }

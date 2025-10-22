@@ -23,16 +23,10 @@ export class LoginComponent {
     this.isLoading = true;
     this.error = '';
     this.authService.login(this.username, this.password).subscribe({
-      next: (success: any) => {
-        if (success) {
-          this.router.navigate(['/dashboard']);
-        }
-        this.isLoading = false;
-      },
-      error: (err: { message: string; }) => {
-        this.error = err.message;
-        this.isLoading = false;
-      },
+      next: () => this.router.navigate(['/dashboard']),
+      error: (err) => (this.error = err.message),
+    }).add(() => {
+      this.isLoading = false;
     });
   }
 }

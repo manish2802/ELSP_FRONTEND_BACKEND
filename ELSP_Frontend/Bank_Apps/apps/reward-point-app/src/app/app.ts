@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcome } from './nx-welcome';
-import { LoyaltyDashboardComponent } from './features/loyalty-dashboard/loyalty-dashboard-component';
+import { PageNotFoundComponent } from './features/pagenotfound/page-not-found.component';
+import { NavBar } from '@myngapp/reward-point-common';
+
 
 @Component({
-  imports: [LoyaltyDashboardComponent, RouterModule],
+  standalone: true,
+  imports: [RouterModule, PageNotFoundComponent, NavBar],
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.css',

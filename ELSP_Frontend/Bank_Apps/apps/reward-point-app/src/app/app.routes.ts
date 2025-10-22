@@ -1,7 +1,6 @@
 import { Route } from '@angular/router';
-import { LoyaltyDashboardComponent } from './features/loyalty-dashboard/loyalty-dashboard-component';
-import { LoginComponent } from './features/login/login';
 import { authGuard } from './auth.guard';
+import { PageNotFoundComponent } from './features/pagenotfound/page-not-found.component';
 
 export const appRoutes: Route[] = [
   {
@@ -11,8 +10,26 @@ export const appRoutes: Route[] = [
   },
   {
     path: 'dashboard',
-    component: LoyaltyDashboardComponent,
-    canActivate: [authGuard],
+   // canActivate: [authGuard],
+    loadChildren: () =>
+      import('./features/dashboard/dashboard.module').then(
+        (m) => m.DashboardModule
+      ),
   },
-  { path: 'login', component: LoginComponent },
+  {
+    // This route seems unused as enrollment is handled inside the dashboard module.
+    // It can likely be removed unless you have a separate enrollment flow.
+    path: 'enrollment-partner',
+    //canActivate: [authGuard],
+    loadChildren: () =>
+      import('./features/enrollment-partner/enrollment-partner.module').then(
+        (m) => m.EnrollmentPartnerModule
+      ),
+  },
+  {
+    path: 'login',
+    loadChildren: () =>
+      import('./features/login/login.module').then((m) => m.LoginModule),
+  },
+  { path: '**', component: PageNotFoundComponent },
 ];

@@ -1,11 +1,4 @@
-<header class="dashboard-header">
-  <h1>Loyalty Dashboard</h1>
-  <button class="enroll-btn" (click)="toggleEnrollmentForm()">
-    Enroll in Loyalty Program
-  </button>
-</header>
-
-<div class="enrollment-container" *ngIf="showEnrollmentForm">
+<div class="enrollment-container">
   <h2>Enrollment Form</h2>
   <form (ngSubmit)="enroll()">
     <div class="form-group">
@@ -26,13 +19,29 @@
     </div>
     <div class="form-group">
       <label for="customerId">Bank Customer ID</label>
-      <input id="customerId" type="text" [value]="user.bankCustomerId" readonly />
+      <input
+        id="customerId"
+        type="text"
+        [value]="user.bankCustomerId"
+        readonly
+      />
+    </div>
+    <div class="form-group">
+      <label for="rewardPoints">Reward Points</label>
+      <input
+        id="rewardPoints"
+        type="text"
+        [value]="user.rewardPoints"
+        readonly
+      />
     </div>
     <div class="form-group">
       <label for="partner">Select Airline Partner</label>
       <select id="partner" [(ngModel)]="selectedPartner" name="partner" required>
         <option value="" disabled>Select a partner</option>
-        <option *ngFor="let partner of airlinePartners" [value]="partner">{{ partner }}</option>
+        <option *ngFor="let partner of airlinePartners" [value]="partner">
+          {{ partner }}
+        </option>
       </select>
     </div>
     <button type="submit" class="submit-btn">Enroll</button>

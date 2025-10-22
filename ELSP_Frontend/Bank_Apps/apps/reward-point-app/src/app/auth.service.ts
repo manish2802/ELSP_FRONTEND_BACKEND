@@ -30,4 +30,8 @@ export class AuthService {
   private storeToken(token: string): void {
     localStorage.setItem(this.JWT_TOKEN, token);
   }
+
+  getUser() {
+    return { firstname: 'John', lastname: 'Doe' };
+  }
 }

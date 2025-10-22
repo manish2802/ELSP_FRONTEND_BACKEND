@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { FligtList } from './fligt-list';
+import { LinkPartner } from './link-partner';
 
-describe('FligtList', () => {
-  let component: FligtList;
-  let fixture: ComponentFixture<FligtList>;
+describe('LinkPartner', () => {
+  let component: LinkPartner;
+  let fixture: ComponentFixture<LinkPartner>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FligtList],
+      imports: [LinkPartner],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(FligtList);
+    fixture = TestBed.createComponent(LinkPartner);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
