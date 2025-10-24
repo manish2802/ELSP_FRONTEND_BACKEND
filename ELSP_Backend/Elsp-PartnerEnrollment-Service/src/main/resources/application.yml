@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: enrollment-partner-service
+  cloud:
+    client:
+      hostname: localhost   # Eureka registration hostname
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/  # your Eureka server URL
+  instance:
+    prefer-ip-address: true   # register service with IP instead of hostname
